@@ -289,6 +289,30 @@ Please report any bugs to Debian, using:
   reportbug -B debian agda
   reportbug -B debian agda-stdlib
 
+GNU Guix
+------------
+Agda is `packaged <https://packages.guix.gnu.org/packages/agda/2.6.4/>`_ for the GNU Guix System, as well as the `stdlib <https://packages.guix.gnu.org/packages/agda-stdlib/1.7.3/>`_.
+
+You can install the latest version by running:
+
+.. code-block:: bash
+
+  guix install agda agda-stdlib
+
+You can also install a specific version of Agda by running:
+
+.. code-block:: bash
+
+  guix install agda@x.x.x agda-stdlib@x.x.x
+
+where x is a specific version number.
+
+Package Sources:
+
+* `Agda <https://git.savannah.gnu.org/cgit/guix.git/tree/gnu/packages/agda.scm#n200>`_
+
+* `Agda Standard Library <https://git.savannah.gnu.org/cgit/guix.git/tree/gnu/packages/agda.scm#n45>`_
+
 Fedora / EPEL (Centos)
 ----------------------
 
